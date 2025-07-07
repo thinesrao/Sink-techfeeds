@@ -68,9 +68,7 @@ export default defineNuxtConfig({
     experimental: {
       openAPI: true,
     },
-    alias: {
-      'buffer': 'unenv/runtime/node/buffer/index'
-    },
+    node: true,
     timing: true,
     openAPI: {
       production: 'runtime',
